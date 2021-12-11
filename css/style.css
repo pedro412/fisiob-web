@@ -904,7 +904,16 @@ span.meta-line {
 }
 }
 
+.logo-1 {
+	position: relative;
+	top: -28px;
+	left: 50px;
+	width: 80px;
+}
 
+.logo-2 {
+	width: 80px;
+}
 .header {
 	z-index: 12;
 	background-color: #fff;
@@ -955,14 +964,16 @@ span.meta-line {
 	position: absolute;
 	bottom: 30%;
 	width: 30%;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
 }
 .slider-title {
-	color: #363636;
+	color: #fff;
 	font-size: 42px;
 	line-height: 52px;
 }
 .slider-description {
-	color: #5d5d5d;
+	color: #fff;
 	margin-bottom: 30px;
 	font-weight: 400;
 	font-size: 18px;
